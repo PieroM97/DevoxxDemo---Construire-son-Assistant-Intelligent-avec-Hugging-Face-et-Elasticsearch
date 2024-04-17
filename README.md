@@ -4,9 +4,7 @@ This system utilizes OpenAI and connects to an Elasticsearch cluster for retriev
 
 ## Configuration
 
-1. **Create `config.ini`**: Inside the `configuration` folder, create a file named `config.ini`.
-
-2. **Edit `config.ini`**:
+1. **Edit `config.ini`**: Inside the `configuration` folder, edit the file named `config.ini`.
 
    ```ini
    [elasticsearch]
