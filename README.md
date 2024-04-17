@@ -28,17 +28,17 @@ This system utilizes OpenAI and connects to an Elasticsearch cluster for retriev
    Navigate to the directory containing the `Dockerfile` and run the following command:
 
    ```bash
-   docker build -t retrieval-system .
+   docker build -t devoxx-chatbot .
    ```
 
-   This command will build a Docker image named `retrieval-system`.
+   This command will build a Docker image named `devoxx-chatbot`.
 
 2. **Run Docker Container**:
 
    Once the image is built, you can run a Docker container using the following command:
 
    ```bash
-   docker run -p 8501:8501 retrieval-system
+   docker run -p 8501:8501 devoxx-chatbot
    ```
 
    This command will start the Docker container, and your system will be accessible at `http://localhost:8501` in your browser.
